@@ -1,3 +1,5 @@
+import React from 'react';
+import BookingConfirmation from './BookingConfirmation';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <BookingConfirmation />
     </div>
   );
 }
